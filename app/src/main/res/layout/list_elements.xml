@@ -22,7 +22,7 @@
             android:padding="6dp">
             <ImageView
 
-                android:id="@+id/iconImageView"
+                android:id="@+id/recycle_image"
                 android:layout_height="100dp"
                 android:layout_width="100dp"
                 android:layout_alignParentStart="true"
@@ -39,13 +39,13 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="2dp"
-                android:layout_toEndOf="@+id/iconImageView"
+                android:layout_toEndOf="@+id/recycle_image"
                 android:orientation="vertical"
                 android:layout_marginLeft="4dp"
-                android:layout_toRightOf="@id/iconImageView">
+                android:layout_toRightOf="@id/recycle_image">
 
                 <TextView
-                    android:id="@+id/nameTextView"
+                    android:id="@+id/recycle_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
@@ -54,13 +54,13 @@
                     android:textSize="24sp"
                     android:textStyle="bold"/>
                 <TextView
-                    android:id="@+id/moneyTextView"
+                    android:id="@+id/recycle_pres"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="C$ 500 "
                     android:textSize="18sp"/>
                 <TextView
-                    android:id="@+id/descripTextView"
+                    android:id="@+id/recycle_desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Esta actividad esta reservada para... "
@@ -68,8 +68,14 @@
 
             </LinearLayout>
 
-
+            <Button
+                android:id="@+id/recycle_edit"
+                android:layout_width="39dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_edit"
+                app:backgroundTint="#000000"></Button>
 
         </RelativeLayout>
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>

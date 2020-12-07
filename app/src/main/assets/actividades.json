@@ -1,0 +1,37 @@
+{
+  "actividades": [
+    {
+      "ImgUrl": "https://assets.stickpng.com/thumbs/5856af054f6ae202fedf277f.png",
+      "nombre": "Salida al Cine",
+      "presupuesto": "C$ 1000",
+      "descripcion": "Esta actividad esta reservada para gastos en el cine"
+
+    },
+
+    {
+      "ImgUrl": "https://assets.stickpng.com/thumbs/580b585b2edbce24c47b23e3.png",
+      "nombre": "Cumpleaños",
+      "presupuesto": "C$ 2000",
+      "descripcion": "Esta actividad esta reservada para gastos de mi cumpleaños"
+    },
+
+    {
+      "ImgUrl": "https://cdn.pixabay.com/photo/2017/02/17/17/33/food-2074638_960_720.png",
+      "nombre": "Restaurante",
+      "presupuesto": "C$ 800",
+      "descripcion": "Esta actividad esta reservada para gastos en un restaurante"
+    },
+
+    {
+      "ImgUrl": "https://pointsprizes-blog.s3-accelerate.amazonaws.com/18.png",
+      "nombre": "Para gastar en Lolcito",
+      "presupuesto": "C$ 1500",
+      "descripcion": "Esta actividad esta reservada para compra de skins en LoL"
+    },
+
+    {
+      "ImgUrl": "https://assets.stickpng.com/images/584298b4a6515b1e0ad75adb.png",
+      "nombre": "Almuerzo en la U",
+      "presupuesto": "C$ 300",
+      "descripcion": "Esta actividad esta reservada para comprar almuerzos en la U"
+    }]}
